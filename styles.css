@@ -223,6 +223,10 @@ h1, h2, h3, h4 {
     gap: 2.5rem;
 }
 
+.hamburger {
+    display: none;
+}
+
 .nav-links a {
     color: var(--text-muted);
     text-decoration: none;
@@ -919,18 +923,56 @@ section {
 
 /* Responsive */
 @media (max-width: 768px) {
+    section { padding: 4rem 0; }
+    
+    .section-title { font-size: 1.8rem; }
     .hero-title { font-size: 2.2rem; }
+    .portfolio-title { font-size: 1.5rem; }
+    .skills-intro-title { font-size: 2rem; }
+
     .hero-container, .about-layout, .contacts-layout, .footer-top, .portfolio-card {
         flex-direction: column;
         text-align: center;
     }
     
     .portfolio-visual {
-        min-height: 250px;
+        min-height: 200px;
+    }
+    
+    .portfolio-card {
+        padding: 1.5rem;
     }
     
     .nav-links {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(9, 9, 11, 0.95);
+        backdrop-filter: blur(10px);
+        padding: 2rem 0;
+        border-bottom: 1px solid var(--glass-border);
+        text-align: center;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+    
+    .hamburger span {
+        width: 25px;
+        height: 2px;
+        background: var(--text-main);
+        transition: all 0.3s ease;
     }
     
     .timeline-container {
@@ -971,13 +1013,17 @@ section {
         flex-direction: column;
     }
     
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
     .skills-decorations {
         display: none;
     }
     
     .hero-image-wrapper, .about-image-wrapper {
         width: 100%;
-        max-width: 350px;
+        max-width: 100%;
         margin: 0 auto;
     }
     
@@ -987,6 +1033,11 @@ section {
     
     .contact-link {
         justify-content: center;
+    }
+    
+    .modal-content {
+        padding: 1.5rem;
+        width: 95%;
     }
 }
 
