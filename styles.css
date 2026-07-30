@@ -990,16 +990,6 @@ section {
 
 /* Responsive */
 @media (max-width: 768px) {
-<<<<<<< HEAD
-    section { padding: 4rem 0; }
-    
-    .section-title { font-size: 1.8rem; }
-    .hero-title { font-size: 2.2rem; }
-    .portfolio-title { font-size: 1.5rem; }
-    .skills-intro-title { font-size: 2rem; }
-
-    .hero-container, .about-layout, .contacts-layout, .footer-top, .portfolio-card {
-=======
     section {
         padding: 4rem 0;
     }
@@ -1025,7 +1015,6 @@ section {
     .contacts-layout,
     .footer-top,
     .portfolio-card {
->>>>>>> 3898fb9 (Update portfolio: Add News Aggregator project, Certificates section, dual image browser mockups, and refined project layout)
         flex-direction: column;
         text-align: center;
     }
@@ -1034,13 +1023,6 @@ section {
         min-height: unset;
         aspect-ratio: 16 / 9;
         width: 100%;
-<<<<<<< HEAD
-    }
-    
-    .portfolio-card {
-        padding: 1.5rem;
-=======
->>>>>>> 3898fb9 (Update portfolio: Add News Aggregator project, Certificates section, dual image browser mockups, and refined project layout)
     }
 
     .portfolio-card {
@@ -1059,27 +1041,6 @@ section {
         padding: 2rem 0;
         border-bottom: 1px solid var(--glass-border);
         text-align: center;
-<<<<<<< HEAD
-    }
-    
-    .nav-links.active {
-        display: flex;
-    }
-    
-    .hamburger {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        cursor: pointer;
-    }
-    
-    .hamburger span {
-        width: 25px;
-        height: 2px;
-        background: var(--text-main);
-        transition: all 0.3s ease;
-=======
->>>>>>> 3898fb9 (Update portfolio: Add News Aggregator project, Certificates section, dual image browser mockups, and refined project layout)
     }
 
     .nav-links.active {
@@ -1137,18 +1098,6 @@ section {
     .skills-layout {
         flex-direction: column;
     }
-<<<<<<< HEAD
-    
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .skills-decorations {
-        display: none;
-    }
-    
-=======
-
     .skills-grid {
         grid-template-columns: 1fr;
     }
@@ -1156,18 +1105,11 @@ section {
     .skills-decorations {
         display: none;
     }
-
->>>>>>> 3898fb9 (Update portfolio: Add News Aggregator project, Certificates section, dual image browser mockups, and refined project layout)
     .hero-image-wrapper {
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
     }
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 3898fb9 (Update portfolio: Add News Aggregator project, Certificates section, dual image browser mockups, and refined project layout)
     .about-image-wrapper {
         width: 100%;
         max-width: 320px;
@@ -1175,11 +1117,7 @@ section {
         aspect-ratio: 4 / 5;
         margin: 2rem auto 0;
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 3898fb9 (Update portfolio: Add News Aggregator project, Certificates section, dual image browser mockups, and refined project layout)
     .section-header {
         justify-content: center;
     }
@@ -1187,11 +1125,7 @@ section {
     .contact-link {
         justify-content: center;
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 3898fb9 (Update portfolio: Add News Aggregator project, Certificates section, dual image browser mockups, and refined project layout)
     .modal-content {
         padding: 1.5rem;
         width: 95%;
@@ -1497,8 +1431,7 @@ section {
     gap: 1rem;
     margin-top: 0.5rem;
 }
-<<<<<<< HEAD
-=======
+
 
 /* News Aggregator Visual Placeholder Container */
 .project-news-visual {
@@ -1667,4 +1600,4 @@ section {
     flex-wrap: wrap;
     gap: 0.5rem;
 }
->>>>>>> 3898fb9 (Update portfolio: Add News Aggregator project, Certificates section, dual image browser mockups, and refined project layout)
+}
