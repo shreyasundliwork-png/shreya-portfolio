@@ -73,8 +73,6 @@ shreya-portfolio
 ## Contact
 
 **Shreya Sundli**  
-Vellore Institute of Technology (VIT)  
-Email: [shreyasundliwork@gmail.com](mailto:shreyasundliwork@gmail.com)  
 
 <p align="center">
   <i>Crafted with precision and a passion for design.</i>
