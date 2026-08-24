@@ -27,7 +27,7 @@
     <header class="header">
         <div class="container header-container">
             <div class="logo">
-                <span class="logo-icon">❀</span> Shreya
+                shreya<span class="logo-dot">.</span><span class="logo-ext">cv</span>
             </div>
             <nav class="nav">
                 <div class="hamburger">
@@ -290,7 +290,8 @@
                                     <div class="browser-url">news-aggregator-silk-ten.vercel.app</div>
                                 </div>
                                 <div class="project-image-wrapper">
-                                    <img src="images/news1.png" alt="News Aggregator Main Interface" class="project-image"
+                                    <img src="images/news1.png" alt="News Aggregator Main Interface"
+                                        class="project-image"
                                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                                     <div class="project-image-placeholder" style="display: none;">
                                         <div class="placeholder-icon">📰</div>
@@ -309,7 +310,8 @@
                                     <div class="browser-url">news-aggregator-silk-ten.vercel.app/dashboard</div>
                                 </div>
                                 <div class="project-image-wrapper">
-                                    <img src="images/news2.png" alt="News Aggregator Dashboard Interface" class="project-image"
+                                    <img src="images/news2.png" alt="News Aggregator Dashboard Interface"
+                                        class="project-image"
                                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                                     <div class="project-image-placeholder" style="display: none;">
                                         <div class="placeholder-icon">⚡</div>
@@ -472,7 +474,9 @@
                                     record.</li>
                                 <li>Built a high-performance React + Vite frontend with responsive grid spreads, custom
                                     image sliders, and a hardware-accelerated fullscreen lightbox.</li>
-                                <li>Engineered seamless page transitions and GPU-accelerated micro-interactions, ensuring optimal load performance and fluid 60fps animations across all viewports.</li>
+                                <li>Engineered seamless page transitions and GPU-accelerated micro-interactions,
+                                    ensuring optimal load performance and fluid 60fps animations across all viewports.
+                                </li>
                             </ul>
 
                             <div class="portfolio-links">
@@ -498,63 +502,178 @@
                 <div class="certificates-grid">
                     <!-- Certificate 1: MERN Full Stack -->
                     <div class="certificate-card animate-on-scroll">
+                        <div class="cert-card-glow cert-glow-mern"></div>
+                        <!-- Subtle Background Watermark -->
+                        <svg class="cert-watermark" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polygon points="50,15 85,35 85,65 50,85 15,65 15,35" />
+                            <polyline points="15,35 50,55 85,35" />
+                            <line x1="50" y1="55" x2="50" y2="85" />
+                        </svg>
+
                         <div class="cert-header">
-                            <div class="cert-icon-wrapper">
-                                <span class="cert-icon">💻</span>
+                            <div class="cert-icon-box cert-icon-mern">
+                                <svg class="cert-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11L16 6L25 11L16 16L7 11Z" stroke="url(#mern-stroke-1)" stroke-width="2" stroke-linejoin="round"/>
+                                    <path d="M7 16L16 21L25 16" stroke="url(#mern-stroke-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7 21L16 26L25 21" stroke="url(#mern-stroke-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                        <linearGradient id="mern-stroke-1" x1="7" y1="6" x2="25" y2="26" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF2E93"/>
+                                            <stop offset="1" stop-color="#C084FC"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
                             </div>
-                            <span class="cert-badge">MERN Certified</span>
+                            <div class="cert-badges-group">
+                                <span class="cert-status-badge">
+                                    <span class="cert-status-dot"></span>Verified
+                                </span>
+                                <span class="cert-type-badge cert-type-mern">MERN Certified</span>
+                            </div>
                         </div>
+
                         <h3 class="cert-title">MERN Full Stack</h3>
-                        <p class="cert-issuer">Full Stack Web Development</p>
+                        <p class="cert-issuer"><span class="cert-issuer-icon">▹</span> Full Stack Web Development</p>
                         <p class="cert-desc">Certified in architecting and deploying production MERN stack web
                             applications with MongoDB Atlas, Express REST APIs, React state management, and Node backend
                             architecture.</p>
+                        
                         <div class="cert-skills">
                             <span class="skill-tag">MongoDB</span>
                             <span class="skill-tag">Express.js</span>
                             <span class="skill-tag">React.js</span>
                             <span class="skill-tag">Node.js</span>
                         </div>
+
+                        <div class="cert-footer">
+                            <span class="cert-credential-label">
+                                <svg class="cert-check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Full Stack Architecture
+                            </span>
+                            <span class="cert-id-tag">MERN-CERT</span>
+                        </div>
                     </div>
 
                     <!-- Certificate 2: Oracle Cloud Infrastructure AI Foundations Associate -->
                     <div class="certificate-card animate-on-scroll">
+                        <div class="cert-card-glow cert-glow-oci"></div>
+                        <!-- Subtle Background Watermark -->
+                        <svg class="cert-watermark" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="50" cy="50" r="30" />
+                            <circle cx="50" cy="50" r="15" />
+                            <line x1="50" y1="10" x2="50" y2="90" />
+                            <line x1="10" y1="50" x2="90" y2="50" />
+                        </svg>
+
                         <div class="cert-header">
-                            <div class="cert-icon-wrapper">
-                                <span class="cert-icon">🤖</span>
-                                <span class="oracle-logo">Oracle</span>
+                            <div class="cert-icon-box cert-icon-oci">
+                                <svg class="cert-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="3.5" fill="#00D2FF"/>
+                                    <circle cx="8" cy="10" r="2.2" fill="#FF2E93"/>
+                                    <circle cx="24" cy="10" r="2.2" fill="#FF2E93"/>
+                                    <circle cx="8" cy="22" r="2.2" fill="#A855F7"/>
+                                    <circle cx="24" cy="22" r="2.2" fill="#A855F7"/>
+                                    <path d="M16 12.5V8.5M16 19.5V23.5M13 14L9.5 11.5M19 14L22.5 11.5M13 18L9.5 20.5M19 18L22.5 20.5" stroke="url(#ai-stroke-1)" stroke-width="1.8" stroke-linecap="round"/>
+                                    <defs>
+                                        <linearGradient id="ai-stroke-1" x1="8" y1="8" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#00D2FF"/>
+                                            <stop offset="0.5" stop-color="#FF2E93"/>
+                                            <stop offset="1" stop-color="#A855F7"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
                             </div>
-                            <span class="cert-badge cert-badge-oracle">OCI Associate</span>
+                            <div class="cert-badges-group">
+                                <span class="oracle-brand-pill">
+                                    <span class="oracle-red-indicator"></span>ORACLE
+                                </span>
+                                <span class="cert-type-badge cert-type-oci">OCI Associate</span>
+                            </div>
                         </div>
+
                         <h3 class="cert-title">Oracle Cloud Infrastructure AI Foundations Associate</h3>
-                        <p class="cert-issuer">Oracle Cloud Infrastructure</p>
+                        <p class="cert-issuer"><span class="cert-issuer-icon">▹</span> Oracle Cloud Infrastructure</p>
                         <p class="cert-desc">Certified in Artificial Intelligence & Machine Learning foundations, Deep
                             Learning concepts, Natural Language Processing, Computer Vision, and OCI AI Infrastructure
                             services.</p>
+                        
                         <div class="cert-skills">
                             <span class="skill-tag">Oracle Cloud</span>
                             <span class="skill-tag">AI / Machine Learning</span>
                             <span class="skill-tag">OCI AI Services</span>
+                            <span class="skill-tag">Computer Vision</span>
+                        </div>
+
+                        <div class="cert-footer">
+                            <span class="cert-credential-label">
+                                <svg class="cert-check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Official Certification
+                            </span>
+                            <span class="cert-id-tag">OCI-AI-FND</span>
                         </div>
                     </div>
 
                     <!-- Certificate 3: Oracle Cloud Infrastructure AI Database Associate -->
                     <div class="certificate-card animate-on-scroll">
+                        <div class="cert-card-glow cert-glow-db"></div>
+                        <!-- Subtle Background Watermark -->
+                        <svg class="cert-watermark" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="20" y="20" width="60" height="60" rx="8" />
+                            <line x1="20" y1="40" x2="80" y2="40" />
+                            <line x1="20" y1="60" x2="80" y2="60" />
+                            <circle cx="30" cy="30" r="3" fill="currentColor" />
+                            <circle cx="30" cy="50" r="3" fill="currentColor" />
+                            <circle cx="30" cy="70" r="3" fill="currentColor" />
+                        </svg>
+
                         <div class="cert-header">
-                            <div class="cert-icon-wrapper">
-                                <span class="cert-icon">🗄️</span>
-                                <span class="oracle-logo">Oracle</span>
+                            <div class="cert-icon-box cert-icon-db">
+                                <svg class="cert-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse cx="16" cy="9" rx="8" ry="3.5" stroke="url(#db-stroke-1)" stroke-width="2"/>
+                                    <path d="M8 9V15C8 16.933 11.5817 18.5 16 18.5C20.4183 18.5 24 16.933 24 15V9" stroke="url(#db-stroke-1)" stroke-width="2"/>
+                                    <path d="M8 15V21C8 22.933 11.5817 24.5 16 24.5C20.4183 24.5 24 22.933 24 21V15" stroke="url(#db-stroke-1)" stroke-width="2"/>
+                                    <path d="M23 4L24.2 6.8L27 8L24.2 9.2L23 12L21.8 9.2L19 8L21.8 6.8L23 4Z" fill="#00D2FF"/>
+                                    <defs>
+                                        <linearGradient id="db-stroke-1" x1="8" y1="5.5" x2="24" y2="24.5" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF2E93"/>
+                                            <stop offset="0.5" stop-color="#A855F7"/>
+                                            <stop offset="1" stop-color="#00D2FF"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
                             </div>
-                            <span class="cert-badge cert-badge-oracle">OCI Associate</span>
+                            <div class="cert-badges-group">
+                                <span class="oracle-brand-pill">
+                                    <span class="oracle-red-indicator"></span>ORACLE
+                                </span>
+                                <span class="cert-type-badge cert-type-oci">OCI Associate</span>
+                            </div>
                         </div>
+
                         <h3 class="cert-title">Oracle Cloud Infrastructure AI Database Associate</h3>
-                        <p class="cert-issuer">Oracle Cloud Infrastructure</p>
+                        <p class="cert-issuer"><span class="cert-issuer-icon">▹</span> Oracle Cloud Infrastructure</p>
                         <p class="cert-desc">Certified in AI-powered cloud database management, Autonomous Database
                             features, Vector Search indexing, automated query tuning, and cloud data architecture.</p>
+                        
                         <div class="cert-skills">
                             <span class="skill-tag">Oracle DB</span>
                             <span class="skill-tag">Autonomous DB</span>
                             <span class="skill-tag">Vector Search</span>
+                            <span class="skill-tag">Cloud Data</span>
+                        </div>
+
+                        <div class="cert-footer">
+                            <span class="cert-credential-label">
+                                <svg class="cert-check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Official Certification
+                            </span>
+                            <span class="cert-id-tag">OCI-AI-DB</span>
                         </div>
                     </div>
                 </div>
@@ -645,17 +764,6 @@
                                 <span class="skill-tag">Canva</span>
                             </div>
                         </div>
-
-                        <div class="skill-box animate-on-scroll">
-                            <h3 class="skill-title">Core CS</h3>
-                            <div class="skill-content">
-                                <span class="skill-tag">Data Structures & Algorithms</span>
-                                <span class="skill-tag">Operating Systems</span>
-                                <span class="skill-tag">DBMS</span>
-                                <span class="skill-tag">Computer Networks</span>
-                                <span class="skill-tag">OOPs</span>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -733,7 +841,7 @@
             <div class="footer-top">
                 <div class="footer-info">
                     <div class="footer-logo">
-                        <span class="logo-icon">❀</span> Shreya
+                        <span class="footer-brand">shreya<span class="logo-dot">.</span><span class="logo-ext">cv</span></span>
                         <span class="footer-email">shreyasundliwork@gmail.com</span>
                     </div>
                     <p class="footer-desc">UI/UX designer and web developer</p>
